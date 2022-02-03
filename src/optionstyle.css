@@ -1,0 +1,394 @@
+/* Main Options V2 */
+
+position: relative;
+width: 1440px;
+height: 1540px;
+
+background: #ffffff;
+
+/* ghi background */
+
+position: absolute;
+width: 1440px;
+height: 273px;
+left: 0px;
+top: 133px;
+
+background: url(backgroundimg.jpg);
+
+/* Country Forecasting Tool */
+
+position: absolute;
+width: 572px;
+height: 67px;
+left: 411px;
+top: 506px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 61px;
+text-align: center;
+
+color: #fb4137;
+
+/* Main Options> Specifications> Results */
+
+position: absolute;
+width: 513px;
+height: 36px;
+left: 440px;
+top: 573px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+
+color: #1d8ecf;
+
+/* Next > */
+
+position: absolute;
+width: 181px;
+height: 67px;
+left: 862px;
+top: 1349px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 61px;
+text-align: center;
+
+color: #fb4137;
+
+/* Select a Year */
+
+position: absolute;
+width: 203px;
+height: 46px;
+left: 436px;
+top: 659px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 48px;
+text-align: right;
+
+color: #1d8ecf;
+
+/* Rectangle 42 */
+
+position: absolute;
+width: 128px;
+height: 47px;
+left: 437px;
+top: 716px;
+
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 20px;
+
+/* Rectangle 45 */
+
+position: absolute;
+width: 128px;
+height: 47px;
+left: 619px;
+top: 716px;
+
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 20px;
+
+/* Rectangle 46 */
+
+position: absolute;
+width: 128px;
+height: 47px;
+left: 800px;
+top: 715px;
+
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 20px;
+
+/* 2010 */
+
+position: absolute;
+width: 100px;
+height: 32px;
+left: 465px;
+top: 719px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* 2013 */
+
+position: absolute;
+width: 100px;
+height: 32px;
+left: 647px;
+top: 719px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* 2015 */
+
+position: absolute;
+width: 100px;
+height: 32px;
+left: 828px;
+top: 719px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* Group 1 */
+
+position: absolute;
+width: 592.34px;
+height: 111px;
+left: 435px;
+top: 793px;
+
+/* Rectangle 32 */
+
+position: absolute;
+width: 592.34px;
+height: 62px;
+left: 435px;
+top: 842px;
+
+
+background: #ffffff;
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+/* Select a Country */
+
+position: absolute;
+width: 254.33px;
+height: 67px;
+left: 435px;
+top: 793px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #1d8ecf;
+
+/* Afghanistan */
+
+position: absolute;
+width: 224.97px;
+height: 42.26px;
+left: 451px;
+top: 851.82px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+transform: rotate(-0.21deg);
+
+/* Group 2 */
+
+position: absolute;
+width: 593.17px;
+height: 107px;
+left: 435px;
+top: 1075px;
+
+/* Rectangle 47 */
+
+position: absolute;
+width: 592.34px;
+height: 62px;
+left: 435.83px;
+top: 1120px;
+
+background: #ffffff;
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 5px;
+
+/* Select a Disease */
+
+position: absolute;
+width: 254.33px;
+height: 67px;
+left: 435px;
+top: 1075px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #1d8ecf;
+
+/* TB */
+
+position: absolute;
+width: 138px;
+height: 67px;
+left: 451px;
+top: 1132px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* Group 3 */
+
+position: absolute;
+width: 592.34px;
+height: 110px;
+left: 435px;
+top: 1215px;
+
+/* Rectangle 48 */
+
+position: absolute;
+width: 592.34px;
+height: 62px;
+left: 435px;
+top: 1263px;
+
+background: #ffffff;
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 5px;
+
+/* Select a Drug */
+
+position: absolute;
+width: 254.33px;
+height: 43px;
+left: 436.66px;
+top: 1215px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #1d8ecf;
+
+/* Moxifloxacin */
+
+position: absolute;
+width: 369px;
+height: 67px;
+left: 451px;
+top: 1272px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* Group 4 */
+
+position: absolute;
+width: 592.34px;
+height: 109px;
+left: 435px;
+top: 935px;
+
+/* Rectangle 49 */
+
+position: absolute;
+width: 592.34px;
+height: 62px;
+left: 435px;
+top: 982px;
+
+background: #ffffff;
+border: 1px solid #404040;
+box-sizing: border-box;
+border-radius: 5px;
+
+/* Select a Company */
+
+position: absolute;
+width: 286.64px;
+height: 67px;
+left: 436.66px;
+top: 935px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #1d8ecf;
+
+/* Bayer Healthcare */
+
+position: absolute;
+width: 411px;
+height: 67px;
+left: 451px;
+top: 992px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+color: #404040;
+
+/* Screen Shot 2020-10-18 at 8.08 1 */
+
+position: absolute;
+width: 1449px;
+height: 119px;
+left: 0px;
+top: 0px;
+
+background: url(Screen Shot 2020-10-18 at 8.08.png);

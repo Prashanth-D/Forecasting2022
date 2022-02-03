@@ -1,0 +1,45 @@
+Commit : 908d946e6d672ae069767953153d7d65c0a717a0
+Author: Daniel Orbach
+Date:  3/11/21
+Notes: I made it so that the different dropdown menues are disabled/enabled at the right times for all routes.
+       I did this by adding a prop selectedSequence which the component can use along with the other data it recives
+       to determine if it should be enabled or not.
+Files changed: 
+        modified:   src/Components/Company.js
+        modified:   src/Components/Countries.js
+        modified:   src/Components/Diseases.js
+        modified:   src/Components/Drugs.js
+        modified:   src/Mainmenu_company.js
+        modified:   src/Mainmenu_country.js
+        modified:   src/Mainmenu_disease.js
+        modified:   src/Mainmenu_drug.js
+
+
+
+
+Title: Third Sequence Results
+Author: Daniel Orbach
+
+Notes:
+       Made Changes to get_results so that the disease sequence compares only the data for the selected country
+       Seeing a lot of repeated code in get_results. We should organize it a little better once we have everything finished
+
+
+Title Fixed Slider Bug
+Author: Daniel Orbach
+Notes: Edidted App.js to fix the slider. Made it so that the change functions read the value directly from the slider instead 
+       of from the event which may breakdown.
+
+
+Title: Frontend year selection implementation take one 
+Author: Daniel Orbach 
+Notes:
+       Front End is now passing the selected_year throughout the backend. Not all backend functions are using it yet however.
+       For the first few api calls it appears as selected_year in the request.json. For get_results I have pulled it out it is in
+       request in dict_dataa under the key Year i have created a variable to store it early in the method. 
+
+Title: updated NTD specs to work for all years
+Author: Destiny Walcott
+Notes:
+       - Added updates to flask_app.py. Modified all functions related to the NTD specification and impact score calculation, so that way it can work for all years
+       - Added new spec_NTDs.py file to create new database tables for the spec NTD 2010 and 2013. I have structured the code in a way that simplifies the process to create new tables for future years

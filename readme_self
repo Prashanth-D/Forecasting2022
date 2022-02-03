@@ -1,0 +1,22 @@
+- Flask_app.py
+    - Added the specifications for the 2010/2013/2015 HIV specification dropdown menu
+    - Added the original impact score calculations for 2010/2013/2015 HIV
+    - Added the new impact score calculation for 2010/2013/2015 HIV
+
+- spec_2015_HIV.py
+    - Edited script to include all necessary data needed for impact score calculations.
+    - Added new column in the regimen data to help differentiate first line from second line
+    - Debugged issue where spec_2015_HIV data wasn't being populated
+    - Debugged issue where spec_2015_HIV_regimen adult prop and child prop were identical
+
+- spec_2013_HIV.py
+    - Added new script to parse ORS_HIV_2013
+    - Added table changes for regimen, specifically group (A or B)
+    
+- spec_2010_HIV.py
+    - Added new script to parse ORS_HIV_2010
+    - Added table changes for regimen, specifically group (A or B)
+    - Added table changes for regimen, drugs now split between child and adult
+    
+- App.js
+    - Changed bounds for specification ranges in the sliders

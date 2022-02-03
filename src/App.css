@@ -1,0 +1,1060 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 300px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+
+  margin: auto;
+  margin-top: 0em;
+
+}
+div {
+  box-sizing: border-box;
+
+  
+}
+
+
+#wrap {
+  /*width: 900px;*/
+  margin: 0 auto;
+}
+
+#wrap1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  z-index: 15;
+  top: 70%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+#wrap2 {
+  position: relative;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  z-index: 15;
+  top: 8em;
+  left: 45%;
+  margin: -100px 0 0 -150px;
+}
+
+@media only screen and (max-width: 1100px){
+  #wrap2{
+    margin: -100px 0 0 -200px;
+
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  #wrap2{
+    margin: -100px 0 0 -200px;
+    width:95%;
+    height: 95%;
+  }
+
+}
+
+
+#wrap3 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  z-index: 15;
+  top: 6em;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+}
+
+#wrap4 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  z-index: 15;
+  margin: -50px auto auto auto;
+}
+
+#wrap5 {
+  margin-bottom: 325px;
+}
+
+.App {
+  height: 2vh;
+  /*width: 75rem;*/
+  background-color: #222;
+  color: #eee;
+  font-family: monospace;
+  padding: 2rem;
+}
+
+
+
+.App-logo {
+  position: relative;
+  height: 9vmin;
+  pointer-events: none;
+  margin-top: 3em;
+
+}
+
+.App-header-img {
+  opacity: 1;
+  position: relative;
+  margin-top: .8em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vmin;
+  width: 120%;
+  left: auto;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+}
+
+
+
+.centered {
+  text-align: center;
+  font-size: 300%;
+  padding-left: 5%;
+  color: rgba(251, 65, 55, 1);
+  font-family: 'Avenir next', sans-serif;
+  letter-spacing: 1.5px;
+
+ 
+}
+
+
+.centered1 {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 100%;
+  color: rgba(64, 64, 64, 1);
+  font-family: 'Avenir next', sans-serif;
+  letter-spacing: 1.5px;
+
+}
+
+@media only screen and (max-width: 575px){
+  .centered1{
+    font-size: 80%;
+  }
+  .centered{
+    font-size: 250%;
+  }
+
+}
+.centered2 {
+  text-align: center;
+  font-size: 200%;
+  padding-left: 4%;
+  padding-top: .5em;
+  left: 35%;
+  color: rgba(29, 142, 207, 1);
+  font-family: 'Avenir next',sans-serif;
+}
+
+.grid {
+ top: 50em;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align:center;
+  margin-left: 0em;
+  margin-right: 0.2em;
+}
+
+Button {
+  width: "100%";
+  height: "30%";
+  margin-left: 28em;
+  margin-top: 0.5em;
+  justifycontent: "center";
+  alignitems: "center";
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.side-menu {
+  position: absolute;
+  height: 10vmin;
+  top: 20px;
+  right: 200px;
+  pointer-events: none;
+}
+
+.body {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+#column1 {
+  display: inline-block;
+  float: left;
+}
+#column2 {
+  display: inline-block;
+  float: left;
+}
+#column3 {
+  display: inline-block;
+  float: left;
+}
+#column4 {
+  display: inline-block;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo11 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header1 {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-group {
+    width: 1000px;
+    margin: 0 auto;
+    text-align:left;
+    font-size: 18px;
+}
+.form-group input {
+    width: 1000px;
+    margin: 0 auto;
+    text-align:left;
+    font-size: 18px;
+}
+
+
+.main-container {
+  display: flex;
+  max-width: 100%;
+  max-height: 75%;
+  /* border: 1px solid red; */
+}
+.left-container {
+  flex: 0 1 50%;
+  min-height: 100%;
+  max-width: 50%;
+  /* border: 1px solid red; */
+  /* background: #0BDA51; */
+  padding: .5em;
+}
+.right-container {
+  flex: 0 1 50%;
+  display: flex;
+  min-height: 100%;
+  
+  max-width: 50%;
+  flex-wrap: wrap;
+  /* background: #0BDA51; */
+  
+  align-items: flex-start;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@supports (-ms-ime-align:auto) {
+    selector {
+        property: value;
+    }
+}
+/************************* upper social icon bar ************************/
+
+#buttons {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+    width: 100vw;
+    box-shadow: 0 4px 10px 0px rgba(64, 64, 64, 0.07);
+    vertical-align: middle;
+}
+
+
+
+.dummyUpperBarWrapper{
+    float: left;
+    width: 100%;
+    padding-right: 3%;
+}
+
+.upperSocialBar{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background: #404040;
+    height: 35px;
+    position: relative;
+    transition: all ease .2s;
+}
+
+.upperSocialBarHide{
+    visibility: hidden;
+    height: 0;
+}
+
+.socialMediaIconsContainer {
+    width: 105px;
+    padding: 3px 0;
+    float: left;
+    position: absolute;
+    left: calc(50% - 52px);
+    height: 35px;
+}
+
+.upperIconWrapper{
+
+}
+
+.socialIconUpper{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 2px 5px;
+    opacity: .8;
+    transition: all ease .2s;
+}
+
+.socialIconUpper:hover{
+    opacity: 1;
+}
+
+.iconInstagram{
+    background-image: url("./instagram-48.png");
+}
+
+.iconTwitter{
+    background-image: url("./twitter-48.png");
+}
+
+.iconFacebook{
+    background-image: url("./facebook-48.png");
+}
+
+.copyRightUpper {
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+    font-size: 10px;
+    float: right;
+    margin-right: 2%;
+    line-height: 35px;
+}
+
+
+
+/************************* font types? ************************/
+
+@font-face {
+  font-family: 'Avenir next';
+  src: url(Assets/fonts/Metropolis-Regular.otf);
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+@font-face {
+  font-family: 'Avenir next';
+  src: url(Assets/fonts/Metropolis-Thin.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Avenir next';
+  src: url(Assets/fonts/Metropolis-ExtraBold.otf);
+  font-style: normal;
+  font-weight: bold;
+
+}
+
+h1 {
+  font-family: Avenir next;
+  font-weight: 600;
+
+}
+
+h2 {
+  font-family: Avenir next;
+  font-weight: 200;
+
+}
+
+h3 {
+  font-family: Avenir next;
+  font-weight: 600;
+}
+
+/************************* Scroll Bar ************************/
+
+
+@supports (-ms-ime-align: auto) {
+  .selector {
+        color: red;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'avenir next regular', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+/************************* Results Page ************************/
+
+
+ /*Layout*/
+
+ .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+ }
+
+ .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+ }
+
+ .leftcolumn{
+  background-color: green;
+ }
+
+ .rightcolumn{
+  background-color: red;
+ }
+.countryresults-TextHeader{
+  color: rgba(251, 65, 55, 1);
+  font-family: Avenir next;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top:65px;
+
+}
+
+.countryresults-Route{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 400px;
+  padding-bottom: 75px;
+}
+
+.companyresults-TextHeader{
+  color: rgba(251, 65, 55, 1);
+  font-family: Avenir next;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top:65px;
+
+}
+
+.companyresults-Route{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 27em;
+  padding-bottom: 75px;
+}
+
+.drugresults-TextHeader{
+  color: rgba(251, 65, 55, 1);
+  font-family: Avenir next;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top:65px;
+
+}
+
+.drugresults-Route{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 21em;
+  padding-bottom: 75px;
+}
+
+/* Media query for country/disease results page */
+@media only screen and (max-width: 700px){
+  .countryresults-TextHeader{
+    font-size: 35px;
+  }
+  .countryresults-Route{
+    font-size: 80%;
+    padding-right: 29em
+
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .countryresults-TextHeader{
+    font-size: 28px;
+  }
+  .countryresults-Route{
+    font-size: 80%;
+    padding-right: 19.5em;
+  }
+}
+
+/* Media query for company results page */
+@media only screen and (max-width: 720px){
+  .companyresults-TextHeader{
+    font-size: 32px;
+  }
+  .companyresults-Route{
+    font-size: 80%;
+    padding-right: 27em;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  .companyresults-TextHeader{
+    font-size: 25px;
+  }
+  .companyresults-Route{
+    font-size: 80%;
+    padding-right: 17em;
+  }
+}
+
+/* Media query for c results page */
+@media only screen and (max-width: 650px){
+  .drugresults-TextHeader{
+    font-size: 32px;
+  }
+  .drugresults-Route{
+    font-size: 80%;
+    padding-right: 21em;      
+  }
+}
+
+@media only screen and (max-width: 520px){
+  .drugresults-TextHeader{
+    font-size: 28px;
+  }
+  .drugresults-Route{
+    font-size: 70%;
+    padding-right: 21em;      
+  }
+}
+
+.left-impact{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 0px;
+  padding-bottom: 101px;
+  position: relative
+}
+
+
+.right-impact{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 200px;
+  position: relative;
+  bottom:11px;
+  left: 150px;
+}
+
+.left-container{
+color: rgba(29, 142, 207, 1);
+text-align: center;
+font-family: Avenir next;
+font-size: 25px;
+padding-left: 195px;
+
+
+}
+
+.right-container{
+color: rgba(29, 142, 207, 1);
+text-align: center;
+font-family: Avenir next;
+font-size: 25px;
+padding-top: 15px;
+padding-left: 60px;
+}
+
+@media only screen and (max-width: 1100px){
+  .left-container{
+    height: 50%;
+    width: 50%;
+  }
+  .right-container{
+    height:50%;
+    width:50%;
+  }
+}
+p{
+  color:black;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: Avenir next;
+  left: 5px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 0px
+}
+
+p.second{
+  color:black;
+  width: 55%;
+  text-align: left;
+  font-size: 15px;
+  font-family: Avenir next;
+
+}
+
+
+.bold{
+  font-weight: bold;
+}
+
+
+.v1 {
+  width: 1px;
+  background-color: grey;
+  border-left: 10px solid grey;
+  height: 700px;
+  position: absolute;
+  border: 1px solid grey;
+  right:750px;
+  top: 600px;
+  display: flex;
+}
+
+.v2 {
+  width: 1px;
+  background-color: grey;
+  border-left: 10px solid grey;
+  height: 1300px;
+  position: absolute;
+  border: 1px solid grey;
+  right:750px;
+  top: 600px;
+  display: flex;
+}
+
+
+
+
+#MuiButton-root-1{
+  position: relative;
+  top: 1em;
+  
+}
+
+#MuiButton-root-2{
+  position: relative;
+  left: 47em;
+  justify-content: right;
+  display: flex;
+}
+
+#button1{
+  display: inline-block;
+}
+
+#container {
+  text-align: center;
+}
+
+/************************* Options Page ************************/
+
+
+#wrap6{
+  position: relative;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  z-index: 15;
+  left: 35%;
+  margin: -100px 0 0 -150px;
+}
+
+.Options-new-header-img{
+  opacity: 1;
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+  height: 25vmin;
+  text-align:left;
+  margin-top: .8em;
+  width: 120%;
+  margin-left:0px;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+}
+.Options-header-img {
+  opacity: 1;
+  position: relative;
+  margin-top: .8em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vmin;
+  width: 120%;
+  left: auto;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+}
+
+.options_TextHeader{
+  color: rgba(251, 65, 55, 1);
+  font-family: Avenir next;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top:30px;
+
+}
+
+.options_Route{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 240px;
+  padding-bottom: 75px;
+}
+
+.options_Route_drug{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 100%;
+  text-align: center;
+  padding-right: 180px;
+  padding-bottom: 75px;
+}
+
+@media only screen and (max-width: 550px){
+  .options_TextHeader{
+    font-size: 30px;
+  }
+  .options_Route{
+    font-size: 80%;
+    padding-right: 170px;
+
+  }
+  .options_Route_drug{
+    font-size:80%;
+    padding-right: 125px;
+  }
+}
+
+/************************* Specification/Slider Page ************************/
+.specification{
+  color: rgba(29, 142, 207, 1);
+  font-family: Avenir next;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+.form-label{
+  font-family: Avenir next;
+  font-size: 30px;
+  font-weight: 200;
+  left:0px;
+  color: grey;
+}
+
+.MuiSlider-root{
+  left:0px;
+}
+
+.buttonpos{
+ left: 10px;
+}
+
+#MuiButton-root-2{
+  left: 15em;
+  top: 2em;
+}
+
+@media only screen and (max-width: 500px){
+  .specification{
+    font-size: 25%;
+    color: red;
+  }
+  .form-label{
+
+  }
+  .MuiSlider-root{
+    
+
+
+  }
+}
+
+/************************* Footer ************************/
+
+.foot {
+    background-color: #404040;
+    color: #FFFFFF;
+    font-family: 'avenir next regular', sans-serif;
+    display: block;
+    position: relative;
+    height: 60px;
+    top:40em;
+    margin-top: 45px;
+}
+#ghi {
+    text-align: right;
+    padding-right: 2vw;
+    font-size: 10px
+
+}
+#contact {
+    padding-left: 4vw;
+    margin: auto 0;
+    padding-right: 7px;
+    width: 1px;
+    white-space: nowrap;
+    font-size: 10px;
+}
+.socialmedia {
+    text-align: center;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+/* Test run for new results page */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%; 
+  flex: 1;
+}
+
+.spacer{
+  height:50px;
+}
+.left-column-extended{
+  background-color:white;
+  height: 1000px;
+  width: 100%;
+}
+.right-column-extended{
+  background-color:white;
+  height: 1000px;
+  width: 100%;
+}
+.left-column{
+  background-color:white;
+  height: 850px;
+  width: 100%;
+}
+
+.right-column{
+  background-color:white;
+  height: 850px;
+  width: 100%;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.divider{
+  width: 1px;
+  background: gray;
+}
+
+.middle-divider{
+  width: 1px;
+  background:red;
+}
+.original-impact{
+  text-align: center;
+  font-size: 200%;
+  padding-left: 0%;
+  color: rgba(29, 142, 207, 1);
+  font-family: 'Avenir next', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.new-impact{
+  text-align: center;
+  font-size: 200%;
+  padding-left: 0%;
+  color: rgba(29, 142, 207, 1);
+  font-family: 'Avenir next', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.graph{
+  height:100%;
+  width:100%;
+}
+
+/* Media Query for result page */
+
+@media only screen and (max-width: 1012px){
+  .divider{
+    height: 200px;
+    transform: translate(-30em,350%) rotate(90deg);
+  }
+}
+
+
+/* Results Page Background images*/
+.backgroundDrug{
+    background-image: url("./drug_background.png");
+}
+
+.backgroundCompany{
+    background-image: url("./company_background.png");
+}
+
+.backgroundDisease{
+    background-image: url("./disease_background.png");
+}
+
+.Results-header-img {
+  opacity: 1;
+  position: relative;
+  margin-top: .8em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vmin;
+  width: 120%;
+  left: auto;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+}
+
+/*Results_country*/
+
+p.map-titles{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Avenir next', sans-serif;
+  color: rgba(29, 142, 207, 1);
+}
+
+/* Results_company*/
+.company-divider{
+  width: 1px;
+  background: gray;
+  height: 1500px;
+}
